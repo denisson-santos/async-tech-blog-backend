@@ -1,0 +1,7 @@
+echo 'Check for linting errors and run run prettier...'
+
+(npm run lint && npm run format) || (
+  echo 'Linting errors failed. Please fix them before commiting.' && exit 1
+)
+
+echo 'Done'
