@@ -1,4 +1,4 @@
-import { Role } from "src/enums/role";
+import { Role } from 'src/enums/role';
 
 export class UserEntity {
   constructor(
@@ -14,6 +14,6 @@ export class UserEntity {
     public isActive: boolean = true,
     public createdAt: Date = new Date(),
     public updatedAt: Date = new Date(),
-    public deletedAt?: Date | null
+    public deletedAt?: Date | null,
   ) {}
 }

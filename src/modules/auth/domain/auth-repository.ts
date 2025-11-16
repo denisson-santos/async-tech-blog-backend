@@ -1,5 +1,5 @@
-import { UserEntity } from "./user-entity";
+import { UserEntity } from './user-entity';
 
 export interface IAuthRepository {
-    findByEmail (email: string): Promise<UserEntity | null>
+  findByEmail(email: string): Promise<UserEntity | null>;
 }
